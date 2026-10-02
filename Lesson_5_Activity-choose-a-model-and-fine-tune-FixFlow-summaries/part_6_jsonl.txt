@@ -1,0 +1,1 @@
+{"messages": [{"role": "user", "content": "KeyError session user_id in Flask route ->"}, {"role": "assistant", "content": "The route reads session['user_id'] before login sets that key, so lookup fails."}]}

@@ -1,0 +1,2 @@
+# Ship-an-AI-Bug-Fixer-SaaS-with-Python-and-OpenAI-course-code
+Learn how to build an AI bug-fixer SaaS with Python and OpenAI—from your first chat completion to a Stripe-gated web product you can extend with fine-tuning. In about 40 minutes across five lessons, this programming track follows working code, API decisions, and one common failure mode per step. You will secure and use the OpenAI API in Python, tur

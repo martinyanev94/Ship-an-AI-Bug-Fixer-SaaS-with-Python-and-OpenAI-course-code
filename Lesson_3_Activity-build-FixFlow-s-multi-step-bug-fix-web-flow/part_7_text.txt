@@ -1,0 +1,27 @@
+@app.route('/', methods=['GET'])
+
+def index():
+
+    return render_template(
+
+        'index.html',
+
+        explanation='',
+
+        fixed_code=''
+
+    )
+
+<form method="post" action="/fix">
+
+  <textarea name="code"></textarea>
+
+  <textarea name="error"></textarea>
+
+  <button type="submit">Code Fix</button>
+
+</form>
+
+<textarea readonly>{{ explanation }}</textarea>
+
+<textarea readonly>{{ fixed_code }}</textarea>
